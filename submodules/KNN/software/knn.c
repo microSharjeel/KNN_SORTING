@@ -93,7 +93,7 @@ int main() {
 
 /************************************************* INITIATING KNN H/W GETTING IT BASE ADDRESS AND SENDING SOFT RESET***
 *************/
-
+ elapsedua= timer_time_usec();
   knn_init( KNN_BASE);
 // WRITE DATA TO FPGA ONLY ONCE FOR ALL TEST POINTS . NOT USED NOW COMMENTED OUT//////////////
   
