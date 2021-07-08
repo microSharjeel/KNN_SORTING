@@ -88,8 +88,7 @@ int main() {
       //neighbor[j].dist = INFINITE;
 
 /************************************ START TIMER HERE ********************************/      
- elapsedua = timer_time_usec();
-// PROCESS DATA
+ // PROCESS DATA
 
 /************************************************* INITIATING KNN H/W GETTING IT BASE ADDRESS AND SENDING SOFT RESET***
 *************/
